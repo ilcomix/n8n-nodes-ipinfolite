@@ -1,0 +1,36 @@
+{
+  "name": "n8n-nodes-ipinfolite",
+  "version": "1.0",
+  "description": "n8n community node for IPinfo LITE (IP lookups)",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n-nodes",
+    "ipinfo",
+    "ip"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build || tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "ilcomix",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/TUO_USER/n8n-nodes-ipinfolite.git" },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "gulp": "^4.0.2",
+    "n8n-workflow": "^1.82.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/nodes/Ipinfo/Ipinfo.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/IpinfoApi.credentials.js"
+    ]
+  }
+}
