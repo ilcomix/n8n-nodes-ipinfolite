@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-ipinfolite",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "n8n community node for IPinfo LITE (IP lookups)",
   "keywords": [
     "n8n-community-node-package",
@@ -13,9 +13,20 @@
     "build": "gulp build || tsc -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
-  "author": "ilcomix",
+  "author": {
+    "name": "ilcomix",
+    "email": "paolo.osint0@gmail.com",
+    "url": "https://github.com/ilcomix"
+  },
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/TUO_USER/n8n-nodes-ipinfolite.git" },
+  "homepage": "https://github.com/ilcomix/n8n-nodes-ipinfolite#readme",
+  "bugs": {
+    "url": "https://github.com/ilcomix/n8n-nodes-ipinfolite/issues"
+  },
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/ilcomix/n8n-nodes-ipinfolite.git" 
+  },
   "devDependencies": {
     "@types/node": "^18.16.0",
     "gulp": "^4.0.2",

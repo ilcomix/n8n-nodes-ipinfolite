@@ -97,4 +97,4 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-For issues and feature requests, please visit the [GitHub repository](https://github.com/yourusername/n8n-nodes-ipinfolite).
+For issues and feature requests, please visit the [GitHub repository](https://github.com/ilcomix/n8n-nodes-ipinfolite).
